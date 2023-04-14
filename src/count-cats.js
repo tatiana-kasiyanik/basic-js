@@ -21,8 +21,8 @@ function countCats(backyard) {
       if (backyard[i][j] === '^^') {
         count++;
       }
+    }
   }
-}
   return count;
 }
 
